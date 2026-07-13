@@ -3,7 +3,7 @@
 Projeto de teste técnico focado na simplicidade, legibilidade e nas boas práticas de desenvolvimento (SOLID e Clean Code).
 O sistema é um gerenciador financeiro onde é possível gerenciar pessoas e contabilizar transações financeiras (receitas e despesas) atreladas a elas.
 
-##  Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 O projeto foi dividido em duas partes perfeitamente desacopladas:
 
@@ -19,13 +19,13 @@ O projeto foi dividido em duas partes perfeitamente desacopladas:
    - Rotas construídas com `react-router-dom`.
    - Requisições feitas via `axios`.
 
-##  Funcionalidades Principais
+## Funcionalidades Principais
 
 - **Consulta de Totais (Dashboard):** Visão geral exibindo saldo líquido, total de despesas e receitas gerais. Listagem detalhada dos totais financeiros individuais de cada morador.
 - **Cadastro de Pessoas:** Permite adicionar moradores e listar os existentes. A exclusão de uma pessoa exclui automaticamente todo o histórico de transações atreladas a ela (Cascade Delete).
 - **Cadastro de Transações:** Permite registrar receitas e despesas. Possui uma trava na API que impede menores de 18 anos de registrar receitas.
 
-## 🚀 Como Executar Localmente
+## Como Executar Localmente
 
 ### 1. Rodando a API (Back-end)
 Navegue até a pasta `backend` e inicie o projeto:
