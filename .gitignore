@@ -1,0 +1,25 @@
+# Ignorar arquivos do desafio que o usuário pediu para não subir
+intruções desafio.docx
+~$truções desafio.docx
+temp_docx/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+
+# Backend (.NET)
+backend/bin/
+backend/obj/
+backend/banco_desafio.db
+backend/banco_desafio.db-shm
+backend/banco_desafio.db-wal
+backend/appsettings.Development.json
+backend/appsettings.user.json
+backend/Properties/launchSettings.json
+
+# Outros
+.DS_Store
+.env
+.vscode/
